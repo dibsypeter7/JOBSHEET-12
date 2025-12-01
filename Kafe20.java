@@ -1,5 +1,8 @@
 public class Kafe20 {
-    public static void menu (String namaPelanggan, Boolean isMember) {
+    public static void main (String[] args) {
+        String namaPelanggan = "Andi";
+        boolean isMember = true;
+
         System.out.println("Selamat Datang, " + namaPelanggan + "!");
 
         if(isMember){
@@ -15,9 +18,6 @@ public class Kafe20 {
         System.out.println("6. Mie Goreng - Rp 18,000");
         System.out.println("============================");
         System.out.println("Silahkan Pilih Menu Yang Anda Inginkan.");
-
-        }
-        public static void main (String[] args) {
-            menu("Andi", true);
     }
 }
+
